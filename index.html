@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title>quoteshower</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content=" width=device-width,initial-scale=1.0" >
+    <meta charset="utf-8">
+    <script src="assets/js/lib/jquery.js"></script>
+    <script src="assets/js/lib/jquery-ui-1.13.2/jquery-ui.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDBDjFJD-xmNzRqjhi7IBpH5fEJVC3OiHY&libraries=places"></script>
+    <script src="assets/js/lib/papaparse.min.js"></script>
+    <script type='module' src="assets/js/main.js"></script>
+</head>
+<body>
+    <div id="textBox">
+        <header>
+            <h1>Random bike trips in Helsinki</h1>
+        </header>
+        <p id="author"><span> made by Aapo Heiska</span></p>
+        <nav>
+            <ul id="titles">
+                <li class="join">lähtopiste</li>
+                <li>päätepysäkki </li>
+                <li>pituus</li>
+                <li>matkankesto</li>
+            </ul>
+            <ul id="data">
+                <li id="lähtöpiste">----</li>
+                <li id="päätepysäkki">----</li>
+                <li id="matkanpituus">----</li>
+                <li id="päivämäärä">----</li>
+            </ul>
+        </nav>
+        <button id="nextQuote">next quote </button>
+    </div>
+    <div id="googleMap">
+    </div>
+</body>
+
+</html>

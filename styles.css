@@ -1,0 +1,116 @@
+body,
+ul,
+li,
+a {
+    margin: 0;
+    padding: 0;
+
+}
+
+#textBox {
+    background-color: #74ccf4;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    border: 3px solid white;
+    padding: 6px 15px;
+    border-radius: 36px;
+    background-color: rgba(201, 135, 48, 0.5);
+}
+
+nav {
+    background-color: rgba(255,255,255, 0.9);
+    padding: 10px;
+    height: 90px;
+    width: 80vw;
+    border-radius: 50px;
+    position: relative;
+    margin:0 auto;
+    bottom:-70vh;
+
+
+}
+
+nav ul {
+    white-space: nowrap;
+    max-width: 1500px;
+    margin: 0 auto;
+
+}
+
+nav li {
+    width: 25%;
+    white-space: normal;
+    word-wrap: break-word;
+    display: inline-block;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: blue;
+    font-weight: bolder;
+
+}
+
+button,
+input {
+    position: relative;
+    display: block;
+    margin:0 auto;
+    top:-11vh;
+}
+
+@keyframes colors {
+    0% {
+        color: hsl(255, 13, 12);
+    }
+
+    50% {
+        color: aqua;
+    }
+
+    75% {
+        color: greenyellow
+    }
+
+    100% {
+        color: hsl(255, 13, 12);
+    }
+}
+
+#author {
+    text-align: center;
+    animation-name: colors;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+
+#data li {
+    color: coral
+}
+
+#titles li {
+    margin-bottom: 10px;
+    font-size: x-large;
+}
+
+#googleMap{
+    width: 70%;
+    height:60vh;
+    position: absolute;
+    top:20vh;
+    left:15%;
+    border-radius: 20px 80px 20px 80px;
+    z-index: 0;
+}
